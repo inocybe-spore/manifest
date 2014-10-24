@@ -132,4 +132,13 @@ Your sources have been sync'd successfully.
            name="inocybe-spore/grub"
            groups="minilayout" />
 
+  <!-- Inocybe Projects-->
+  <project path="src/third_party/coreos-overlay/app-misc/opendaylight-dist"
+           name="inocybe-spore/opendaylight-dist"
+           groups="minilayout" />
+
+  <project path="src/third_party/coreos-overlay/app-misc/cloud-config"
+           name="inocybe-spore/cloud-config"
+           groups="minilayout" />
+
 </manifest>
