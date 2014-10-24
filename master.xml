@@ -29,14 +29,9 @@ Your sources have been sync'd successfully.
   <project path="src/overlays"
            name="inocybe-spore/board-overlays"
            groups="minilayout" />
-  <project path="src/scripts" name="inocybe-spore/scripts"
-           groups="minilayout" />
 
   <project path="src/third_party/portage-stable"
            name="inocybe-spore/portage-stable"
-           groups="minilayout" />
-  <project path="src/third_party/coreos-overlay"
-           name="inocybe-spore/coreos-overlay"
            groups="minilayout" />
 
   <project path="src/third_party/dbus-c++"
@@ -141,4 +136,11 @@ Your sources have been sync'd successfully.
            name="inocybe-spore/cloud-config"
            groups="minilayout" />
 
+  <!-- Inocybe Modified -->
+  <project path="src/scripts" name="inocybe-spore/scripts"
+           groups="minilayout" />
+
+  <project path="src/third_party/coreos-overlay"
+           name="inocybe-spore/coreos-overlay"
+           groups="minilayout" />
 </manifest>
