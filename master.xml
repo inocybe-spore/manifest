@@ -12,7 +12,7 @@ Your sources have been sync'd successfully.
            groups="minilayout" remote="cros" />
   <repo-hooks in-project="chromiumos/repohooks" enabled-list="pre-upload" />
 
-  <project path="chromite" name="inocybe-spore/chromite" groups="minilayout" >
+  <project path="chromite" name="inocybe/chromite" groups="minilayout" >
     <copyfile src="AUTHORS" dest="AUTHORS" />
     <copyfile src="LICENSE" dest="LICENSE" />
   </project>
@@ -27,47 +27,47 @@ Your sources have been sync'd successfully.
            groups="minilayout" remote="cros" />
 
   <project path="src/overlays"
-           name="inocybe-spore/board-overlays"
+           name="inocybe/board-overlays"
            groups="minilayout" />
 
   <project path="src/third_party/portage-stable"
-           name="inocybe-spore/portage-stable"
+           name="inocybe/portage-stable"
            groups="minilayout" />
 
   <project path="src/third_party/dbus-c++"
-           name="inocybe-spore/dbus-cplusplus"
+           name="inocybe/dbus-cplusplus"
            groups="minilayout" />
 
   <project path="src/third_party/efunctions"
-           name="inocybe-spore/efunctions"
+           name="inocybe/efunctions"
            groups="minilayout" />
 
   <project path="src/third_party/update_engine"
-           name="inocybe-spore/update_engine"
+           name="inocybe/update_engine"
            groups="minilayout" />
 
   <project path="src/platform/dev"
-           name="inocybe-spore/dev-util"
+           name="inocybe/dev-util"
            groups="minilayout" />
 
   <project path="src/third_party/init"
-           name="inocybe-spore/init"
+           name="inocybe/init"
            groups="minilayout" />
 
   <project path="src/third_party/bootengine"
-           name="inocybe-spore/bootengine"
+           name="inocybe/bootengine"
            groups="minilayout" />
 
   <project path="src/platform/installer"
-           name="inocybe-spore/installer"
+           name="inocybe/installer"
            groups="minilayout" />
 
   <project path="src/third_party/etcd"
-           name="inocybe-spore/etcd"
+           name="inocybe/etcd"
            groups="minilayout" />
 
   <project path="src/third_party/fleet"
-           name="inocybe-spore/fleet"
+           name="inocybe/fleet"
            groups="minilayout" />
 
   <project path="src/third_party/docker"
@@ -75,48 +75,48 @@ Your sources have been sync'd successfully.
            groups="minilayout" />
 
   <project path="src/third_party/etcdctl"
-           name="inocybe-spore/etcdctl"
+           name="inocybe/etcdctl"
            groups="minilayout" />
 
   <project path="src/platform/vboot_reference"
-           name="inocybe-spore/vboot_reference"
+           name="inocybe/vboot_reference"
            groups="minilayout" />
 
   <project path="src/third_party/linux"
-           name="inocybe-spore/linux"
+           name="inocybe/linux"
            groups="minilayout"
            revision="coreos/master" />
 
   <project path="src/third_party/coreos-buildbot"
-           name="inocybe-spore/coreos-buildbot"
+           name="inocybe/coreos-buildbot"
            groups="minilayout" />
 
   <project path="src/third_party/sysroot-wrappers"
-           name="inocybe-spore/sysroot-wrappers"
+           name="inocybe/sysroot-wrappers"
            groups="minilayout" />
 
   <project path="src/third_party/nss-altfiles"
-           name="inocybe-spore/nss-altfiles"
+           name="inocybe/nss-altfiles"
            groups="minilayout" />
 
   <project path="src/third_party/baselayout"
-           name="inocybe-spore/baselayout"
+           name="inocybe/baselayout"
            groups="minilayout" />
 
   <project path="src/third_party/coreos-cloudinit"
-           name="inocybe-spore/coreos-cloudinit"
+           name="inocybe/coreos-cloudinit"
            groups="minilayout" />
 
   <project path="src/third_party/locksmith"
-           name="inocybe-spore/locksmith"
+           name="inocybe/locksmith"
            groups="minilayout" />
 
   <project path="src/third_party/coretest"
-           name="inocybe-spore/coretest"
+           name="inocybe/coretest"
            groups="minilayout" />
 
   <project path="src/third_party/toolbox"
-           name="inocybe-spore/toolbox"
+           name="inocybe/toolbox"
            groups="minilayout" />
 
   <!--<project path="src/third_party/updateservicectl"
@@ -124,23 +124,23 @@ Your sources have been sync'd successfully.
            groups="minilayout" />-->
 
   <project path="src/third_party/grub"
-           name="inocybe-spore/grub"
+           name="inocybe/grub"
            groups="minilayout" />
 
   <!-- Inocybe Projects-->
   <project path="src/third_party/coreos-overlay/app-misc/opendaylight-dist"
-           name="inocybe-spore/opendaylight-dist"
+           name="inocybe/opendaylight-dist"
            groups="minilayout" />
 
   <project path="src/third_party/coreos-overlay/app-misc/cloud-config"
-           name="inocybe-spore/cloud-config"
+           name="inocybe/cloud-config"
            groups="minilayout" />
 
   <!-- Inocybe Modified -->
-  <project path="src/scripts" name="inocybe-spore/scripts"
+  <project path="src/scripts" name="inocybe/scripts"
            groups="minilayout" />
 
   <project path="src/third_party/coreos-overlay"
-           name="inocybe-spore/coreos-overlay"
+           name="inocybe/coreos-overlay"
            groups="minilayout" />
 </manifest>
