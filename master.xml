@@ -136,6 +136,10 @@ Your sources have been sync'd successfully.
            name="inocybe/cloud-config"
            groups="minilayout" />
 
+  <project path="spore-auto-build"
+           name="inocybe/spore-auto-build"
+           groups="minilayout" />
+
   <!-- Inocybe Modified -->
   <project path="src/scripts" name="inocybe/scripts"
            groups="minilayout" />
