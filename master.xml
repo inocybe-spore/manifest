@@ -132,9 +132,9 @@ Your sources have been sync'd successfully.
            name="inocybe/opendaylight-dist"
            groups="minilayout" />
 
-  <project path="src/third_party/coreos-overlay/app-misc/cloud-config"
-           name="inocybe/cloud-config"
-           groups="minilayout" />
+  <!-- <project path="src/third_party/coreos-overlay/app-misc/cloud-config" -->
+  <!--          name="inocybe/cloud-config" -->
+  <!--          groups="minilayout" /> -->
 
   <project path="spore-auto-build"
            name="inocybe/spore-auto-build"
